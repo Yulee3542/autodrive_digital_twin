@@ -1,0 +1,8 @@
+# WSL/Ubuntu에서 실행하는 셸 스크립트는 CRLF로 바뀌면 깨진다
+*.sh text eol=lf
+# 윈도우 실행 파일
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+# Unity 직렬화 파일
+*.meta text eol=lf
+*.asset text eol=lf

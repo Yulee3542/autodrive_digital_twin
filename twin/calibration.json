@@ -1,0 +1,5 @@
+{
+  "_note": "장치별 조향 POT 좌/우 한계 ADC (arduino_node.adc_to_deg와 같은 2점 선형). twin은 TwinFirmware/firmware_model 기본값과 같아야 한다. panel은 패널 가변저항을 달고 좌 한계·우 한계에서 /car/steering_pot 값을 읽어 교체할 것 — 지금 값은 실차 값을 임시로 넣은 것.",
+  "panel": {"pot_left_adc": 825, "pot_right_adc": 146, "steer_limit_deg": 20.0, "measured": false},
+  "twin":  {"pot_left_adc": 825, "pot_right_adc": 146, "steer_limit_deg": 20.0, "measured": true}
+}

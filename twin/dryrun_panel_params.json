@@ -1,0 +1,1 @@
+{"_note": "DRY RUN 전용 가짜 패널. 실측 아님", "deg_per_pulse": 7.5, "steer_lag_ms": 60, "backlash_deg": 1.5, "pot_noise_adc": 2.0}

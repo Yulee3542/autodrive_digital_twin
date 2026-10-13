@@ -1,0 +1,23 @@
+# Unity (재생성되는 캐시 — 수 GB)
+unity/*/[Ll]ibrary/
+unity/*/[Tt]emp/
+unity/*/[Ll]ogs/
+unity/*/[Oo]bj/
+unity/*/[Uu]ser[Ss]ettings/
+unity/*/[Bb]uild*/
+unity/*/.vs/
+unity/*/.vscode/
+unity/*/*.csproj
+unity/*/*.sln
+unity/*/*.slnx
+unity/*/Packages/packages-lock.json
+# 차량 모델은 넣지 않는다 (상자 차량으로 대체) — 로컬에 자기 모델을 둘 때 실수로 커밋되지 않게
+unity/*/Assets/Vehicles/
+unity/*/Assets/GaussianAssets/
+# Python
+__pycache__/
+*.pyc
+# 실험 데이터·생성물
+twin/runs/
+twin/paper*/
+twin/twin_params.json
