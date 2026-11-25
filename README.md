@@ -1,5 +1,13 @@
 # autodrive_digital_twin
 
+> **English overview.** Digital-twin testbed for the small autonomous vehicle in
+> [autodrive_skku](https://github.com/Yulee3542/autodrive_skku). The same ROS 2 drive commands are sent at once to a
+> **control panel** (the car's own motors, drivers, Arduino and firmware mounted on a board) and to a **Unity digital
+> twin** (a virtual car that emulates the same firmware rules in a 1 ms loop). Their responses are compared, logged and
+> used to fit the twin's parameters such as steering backlash and delay. This testbed is the basis of the paper
+> "Digital Twin Implementation and Control Monitoring Panel-Based Parameter Calibration for Autonomous Driving"
+> (KIIS Fall Conference 2026). The detailed manual below is written in Korean.
+
 소형 자율주행 차량([autodrive_skku](https://github.com/Yulee3542/autodrive_skku))의 **디지털 트윈 테스트베드**.
 같은 ROS 2 구동 명령을 **컨트롤 패널**(차량과 같은 모터·드라이버·아두이노·펌웨어를 판 위에 올린 실제 구동계)과
 **Unity 디지털 트윈**(같은 펌웨어 규칙을 1 ms 루프로 흉내 내는 가상 차량)에 동시에 보내고, 두 응답을 실시간으로 비교·기록·조정한다.
